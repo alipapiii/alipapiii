@@ -369,10 +369,10 @@
         var now = new Date();
         var unlockDate = new Date("2025-02-01T23:59:00");
   
-        // if (now < unlockDate) {
-        //   alert("Pesan ini hanya bisa dibuka setelah tanggal 1 Februari 2025 pukul 23:59.");
-        //   return;
-        // }
+        if (now < unlockDate) {
+          alert("aoaowokwak kaga bisa yak yahaha.");
+          return;
+        }
   
         document.querySelector(".card").style = "transition: 0.5s all ease;transform: scale(0);opacity: 0;";
         audio.play();
